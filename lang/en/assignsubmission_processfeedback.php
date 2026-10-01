@@ -42,7 +42,7 @@ $string['autosubmission_help'] = 'When enabled, writing process report (and summ
 // Student submission form — shown to students on the "Add/Edit submission" page.
 // "studentnoticeautomatic" is the info notice rendered when automatic process data submission is enabled.
 // "savingprocessdata" is a status message shown during the submit interceptor upload (local_processfeedback).
-$string['studentnoticeautomatic'] = 'Your writing process report will be included when you Save Changes.';
+$string['studentnoticeautomatic'] = 'Your writing process report will be included when you save changes.';
 $string['savingprocessdata'] = 'Saving process data...';
 
 // Grading and submission summary — shown to teachers in the assignment grading view,
@@ -51,7 +51,7 @@ $string['savingprocessdata'] = 'Saving process data...';
 // "downloadprocesszip" is the link text for downloading the raw process data ZIP.
 // "process_files" labels the file area internally — not shown to normal users, used by Moodle's file management and backup/restore systems.
 $string['nodata'] = 'No process data submitted.';
-$string['downloadprocesszip'] = 'Download Process Data';
+$string['downloadprocesszip'] = 'Download process data';
 $string['process_files'] = 'Process Feedback data files';
 $string['edittime'] = 'Writing time';
 $string['durationhoursminutes'] = '{$a->hours} hr {$a->minutes} mins';
@@ -59,9 +59,6 @@ $string['durationminutes'] = '{$a} mins';
 $string['durationseconds'] = '{$a} sec';
 $string['revisions'] = 'Snapshots';
 $string['activedays'] = 'Active days';
-$string['largestchange'] = 'Largest change';
-$string['largestchangechars'] = '{$a} chars';
-$string['firstedit'] = 'First edit';
 $string['lastedit'] = 'Last edit';
 
 // Privacy metadata — not shown in normal use.
@@ -75,5 +72,4 @@ $string['privacy:metadata:assignsubmission_processfeedback:revision_count'] = 'T
 $string['privacy:metadata:assignsubmission_processfeedback:active_days'] = 'Number of distinct calendar days on which editing occurred.';
 $string['privacy:metadata:assignsubmission_processfeedback:first_edit'] = 'Timestamp of the first recorded edit.';
 $string['privacy:metadata:assignsubmission_processfeedback:last_edit'] = 'Timestamp of the most recent recorded edit.';
-$string['privacy:metadata:assignsubmission_processfeedback:largest_change_chars'] = 'The largest single change in characters between any two consecutive snapshots.';
 $string['privacy:metadata:filearea'] = 'The full writing process ZIP file stored per submission.';
